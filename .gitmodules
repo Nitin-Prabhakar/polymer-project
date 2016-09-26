@@ -1,0 +1,9 @@
+[submodule "Webcomponents"]
+	path = Webcomponents
+	url = https://github.com/Nitin-Prabhakar/Webcomponents.git
+[submodule "responsive-image-component"]
+	path = responsive-image-component
+	url = https://github.com/Nitin-Prabhakar/responsive-image-component.git
+[submodule "polymer-play-ground"]
+	path = polymer-play-ground
+	url = https://github.com/Nitin-Prabhakar/polymer-play-ground.git
