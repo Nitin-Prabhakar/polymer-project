@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nitin Prabhakar</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="icon" type="image/png" href="favicon-custom.png">
+        <script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="bower_components/font-awesome-animation/dist/font-awesome-animation.min.css">
+        <link rel="stylesheet" href="build/css/app.css">
+        <link rel="import" href="bower_components/polymer/polymer.html">
+        <link rel="import" href="elements/picture.html">
+        <link rel="import" href="elements/toolbar.html">
+        <link rel="import" href="bower_components/google-hangout-button/google-hangout-button.html">
+        <link rel="import" href="elements/polymer-logo.html">
+        <script src='https://www.google.com/recaptcha/api.js'></script>
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="page-header">
+                    <section id="banner">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-12">
+                                <div class="nameplate text-uppercase">
+                                    <h1><big>nitin prabhakar</big></h1>
+                                    <h1><small>polymer-project space</small></h1>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <div class="row">
+                        <div class="col-xs-10 col-sm-4 col-md-3">
+                            <div class="social">
+                                <ul class="flex-wrap connect">
+                                    <li>
+                                        <a href="https://twitter.com/thusspake_nitin" class="fa fa-2x fa-xl fa-xxl fa-twitter" target="_blank"></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://in.linkedin.com/in/thusspakenitin" class="fa fa-2x fa-xl fa-xxl fa-linkedin" target="_blank"></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/Nitin-Prabhakar" class="fa fa-2x fa-xl fa-xxl fa-github" target="_blank"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xs-2 visible-xs-block">
+                            <div class="hamburger">
+                                <a id="hamburger" href="#" class="fa fa-2x fa-xl fa-bars"></a>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-7 col-sm-push-1 col-md-4 col-md-push-5">
+                            <nav id="drawer" class="nav">
+                                <ul class="visible-xs-block">
+                                  <li class="text-right">
+                                    <a href="#" id="menu-close"><h3><span>X</span></h3></a>
+                                  </li>
+                                </ul>
+                                <ul class="flex-wrap nav-list">
+                                    <li class="text-center"><a class="text-uppercase menu-item" href="http://www.nitinprabhakar.com">Home</a></li>
+                                    <li class="text-center"><a class="text-uppercase menu-item" href="#about">About</a></li>
+                                    <li class="text-center"><a class="text-uppercase menu-item" href="http://resume.nitinprabhakar.com">Resume</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+
+            <div class="container">
+                <section id="project-pipeline">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <h2 class="text-uppercase __pipeline-header text-center">welcome to the amazing world of polymer</h2>
+                            <hr class="star-primary"></hr>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="flex-wrap project-list">
+                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                                <article>
+                                    <div class="article-cover">
+                                        <figure>
+                                            <picture-fill base="build/images/" alt="Polymer Play Ground - An app that lets you practise everything polymer-project" src-conf='[ { "srcset":[480,640,800,960,1280,1600],"sizes":"(max-width:767px)100vw,(max-width:970px)50vw,33.3333vw","file":"polymer-project-playground"} ]' fallback-src="polymer-project-playground-480"></picture-fill>
+                                            <figcaption class="text-center text-uppercase">
+                                                <h3 class="project-header">Polymer Playground</h3>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="article-tool-bar">
+                                        <tool-bar modal-id="polymer-project-playground" title="polymer-playground" repo-link="https://github.com/Nitin-Prabhakar/Polymer-Play-Ground">
+                                            <div class="col-xs-12 col-sm-7 col-md-8 modal-preview">
+                                                <picture-fill base="build/images/" alt="polymer-project-playground" src-conf='[ { "srcset":[480,640,800,960,1280,1600],"sizes":"(max-width:767px) 100vw,70vw","file":"polymer-project-playground"} ]' fallback-src="polymer-project-playground-480"></picture-fill>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-5 col-md-4 modal-desc">
+                                                <p>A Repository, that helps you play around with the polymer library from the polymer-project guys at google</p>
+                                            </div>
+                                        </tool-bar>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                                <article>
+                                    <div class="article-cover">
+                                        <figure>
+                                            <picture-fill base="build/images/" alt="A Responsive Image Component built with Polymer" src-conf='[ { "srcset":[480,640,800,960,1280,1600],"sizes":"(max-width:767px)100vw,(max-width:970px)50vw,33.3333vw","file":"Polymer-Project-RIC"} ]' fallback-src="Polymer-Project-RIC-480"></picture-fill>
+                                            <figcaption class="text-center text-uppercase">
+                                                <h3 class="project-header">Responsive Images</h3>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="article-tool-bar">
+                                        <tool-bar modal-id="polymer-project-responsive-image-component" title="polymer-project - Responsive Image Component" repo-link="https://github.com/Nitin-Prabhakar/responsive-image-component">
+                                            <div class="col-xs-12 col-sm-7 col-md-8 modal-preview">
+                                                <picture-fill base="build/images/" alt="polymer project responsive images" src-conf='[ { "srcset":[480,640,800,960,1280,1600],"sizes":"(max-width:767px) 100vw,70vw","file":"Polymer-Project-RIC"} ]' fallback-src="Polymer-Project-RIC-480"></picture-fill>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-5 col-md-4 modal-desc">
+                                                <p>A boilerplate picture element that renders responsive images.Fork the repo, and start rendering responsive images</p>
+                                            </div>
+                                        </tool-bar>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                                <article>
+                                    <div class="article-cover">
+                                        <figure>
+                                            <picture-fill base="build/images/" alt="Webcomponents Nursery" src-conf='[ { "srcset":[480,640,800,960,1280,1600],"sizes":"(max-width:767px)100vw,(max-width:970px)50vw,33.3333vw","file":"Webcomponents"} ]' fallback-src="Webcomponents-480"></picture-fill>
+                                            <figcaption class="text-center text-uppercase">
+                                                <h3 class="project-header">Webcomponent Nursery</h3>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="article-tool-bar">
+                                        <tool-bar modal-id="webcomponents" title="webcomponents Nursery" repo-link="https://github.com/Nitin-Prabhakar/Webcomponents">
+                                            <div class="col-xs-12 col-sm-7 col-md-8 modal-preview">
+                                                <picture-fill base="build/images/" alt="webcomponents Nursery" src-conf='[ { "srcset":[480,640,800,960,1280,1600],"sizes":"(max-width:767px) 100vw,70vw","file":"Webcomponents"} ]' fallback-src="Webcomponents-480"></picture-fill>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-5 col-md-4 modal-desc">
+                                                <p>A Repository, that enables you to code with the v1 specs for custom-elements, while polyfilling shadow DoM from v0!</p>
+                                            </div>
+                                        </tool-bar>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="container">
+            </div>
+        </main>
+        <footer class="footer">
+            <script src="bower_components/jquery/dist/jquery.min.js"></script>
+            <script src="build/js/app.js"></script>
+            <div class="container">
+                <div class="page-footer">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <ul class="flex-wrap branding">
+                                <li class="w3c-validated">
+                                    <a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="images/vcss-blue.gif" alt="Valid CSS!">
+                                    </a>
+                                </li>
+                                <li class="polymer-credit">
+                                    <h2 class="text-capitalize">
+                                        <small>powered by </small>
+                                        <polymer-logo></polymer-logo>
+                                    </h2>
+                                </li>
+                                <li class="g-hangout">
+                                    <span>
+                                        <google-hangout-button invites='[{ "id" : "pmitwithnitin@gmail.com", "invite_type" : "EMAIL"}]'></google-hangout-button>
+                                    </span>
+                                </li>
+                                <li class="stocksnap-credit">
+                                    <h2 class="text-capitalize"><small>images courtesy <a href="https://stocksnap.io/" target="_blank">stocksnap</a></small></h2>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
