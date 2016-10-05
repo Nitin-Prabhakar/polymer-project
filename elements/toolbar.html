@@ -11,7 +11,7 @@
                 <iron-icon icon="icons:info" id="anchor-for-[[modalId]]" onclick="clickHandler(event)"></iron-icon>
             </li>
             <li>
-                <a href="https://plus.google.com/share?url=[[shareLink]]" target="_blank" ><iron-icon icon="social:share"></iron-icon></a>
+                <a href="https://plus.google.com/share?url=[[share]]" target="_blank" ><iron-icon icon="social:share"></iron-icon></a>
             </li>
             <li><a href="[[repoLink]]" target="_blank"><i class="fa fa-2x fa-code-fork" aria-hidden=true></i></a></li>
         </ul>
@@ -53,8 +53,9 @@
                 type:String,
                 value:"https://github.com/Nitin-Prabhakar"
             },
-            shareLink: {
-                type: String
+            share: {
+                type: String,
+                value:"https://github.com/Nitin-Prabhakar"
             },
             title: {
                 type: String,
