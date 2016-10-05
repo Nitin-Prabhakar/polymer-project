@@ -7,3 +7,6 @@
 [submodule "polymer-play-ground"]
 	path = polymer-play-ground
 	url = https://github.com/Nitin-Prabhakar/polymer-play-ground.git
+[submodule "tool-bar"]
+	path = tool-bar
+	url = https://github.com/Nitin-Prabhakar/tool-bar.git
