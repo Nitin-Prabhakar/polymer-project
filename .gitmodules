@@ -10,3 +10,6 @@
 [submodule "tool-bar"]
 	path = tool-bar
 	url = https://github.com/Nitin-Prabhakar/tool-bar.git
+[submodule "g-map"]
+	path = g-map
+	url = https://github.com/Nitin-Prabhakar/g-map.git
